@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+<!-- ************** HEAD ******************** -->
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./assets/global.css" />
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+  <link rel="stylesheet" href="./assets/css/contact.css" />
+  <link rel="stylesheet" href="./assets/css/scroll-bar.css" />
+  <link rel="stylesheet" href="./assets/css/nav-styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  <link rel="icon" href="./assets/images/favicon.ico" />
+  <title>Zombie Solutions Technologiques - Nous joindre</title>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158204107-2"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-158204107-2');
+  </script>
+</head>
+ 
+<!-- ************** BODY ************** -->
+
+<body class="main">
+    <!-- HEADER -->
+    <header class="no-user-select">
+      <!-- sticky header -->
+      <div class="container-nav sticky">
+        <nav class="navbar">
+          <div class="nav-button">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
+          <!-- LINKS -->
+          <ul class="menu">
+            <li>
+              <img src="./assets/images/logos/logo_red_black.png" class="logo" alt="ZST - Logo" />
+            </li>
+            <li class="active">
+              <a href="index.html"><button id="link-btn">Accueil</button></a>
+            </li>
+            <li>
+              <a href="./index.html#feature"><button id="link-btn">Quelques points</button></a>
+            </li>
+            <li>
+              <a href="./index.html#testimonials"><button id="link-btn">Un peu sur nous</button></a>
+            </li>
+            <li>
+              <a href="./equipe.html">
+                <button id="contact-btn">L'équipe</button>
+              </a>
+            </li>
+            <li>
+              <a href="./index.html#pricing">
+                <button id="contact-btn">Prix</button>
+              </a>
+            </li>
+            <li>
+              <a href="./nousjoindre.html"><button id="link-btn">Nous joindre</button></a>
+            </li>
+          </ul>
+
+          <!-- Dark mode toggle -->
+          <label class="toggle-bar" id="toggle-bar">
+            <input type="checkbox" id="toggle-checkbox"/>
+            <div class="toggle-container" id="toggle-container"></div>
+          </label>
+        </nav>
+      </div>
+    </header>
+
+    <div id="container">
+      <!--Header Starts here -->
+      <header>
+        <h1>Nous joindre</h1>
+        <p>
+          Le tout commence par une discussion
+        </p>
+      </header>
+      <!-- Header End's -->
+      <main>
+        <!-- Call To Action Cards -->
+        <div class="cards">
+          <div>
+            <h2>Appel ou courriel</h2>
+            <p>
+              Nous offrons un support sur mesure .
+            </p>
+          </div>
+          <div>
+            <h3>Support</h3>
+            <span>+Numero sans frais prochainement</span>
+            <a href="#">Rejoindre le support</a>
+            <p>
+              Notre support technique support est disponible via telephone
+              our courriel de 9am a 5pm GST, Lundi au Vendredi.
+            </p>
+          </div>
+          <div>
+            <h3>Ventes</h3>
+            <span>+Numero sans frais</span>
+            <a href="#">Rejoindre les ventes</a>
+            <p>
+              Notre support technique support est disponible via telephone
+              ou courriel de 9am a 5pm GST, Lundi au Vendredi.
+            </p>
+          </div>
+          <div>
+            <h3>Demande Generale</h3>
+            <a href="#">hello@zombie.solutions</a>
+          </div>
+        </div>
+
+        <!-- Form Starts Here-->
+        <div class="form">
+          <h2>Ecrivez nous une ligne</h2>
+          <form action="#">
+            <div class="form-input multiple">
+              <input type="text" name="first-name" placeholder="Prenom" />
+              <input type="text" name="last-name" placeholder="Nom" />
+            </div>
+            <div class="form-input">
+              <input type="text" name="company" placeholder="Nom de la compagnie" />
+            </div>
+            <div class="form-input">
+              <input type="email" name="email" placeholder="Courriel" />
+            </div>
+
+            <div class="form-input multiple">
+              <input type="tel" name="phone" placeholder="Telephone" />
+              <input type="text" name="country" placeholder="Pays" />
+            </div>
+            <div class="form-input">
+              <select name="department" required>
+                <option value=""disabled selected>Choisir Departement</option>
+                <option value="details">Detail</option>
+                <option value="business">Enteprise</option>
+                <option value="support">Support</option>
+              </select>
+            </div>
+            <!--  Form Input Box here-->
+            <div class="form-input">
+              <textarea name="message" cols="30" rows="10" placeholder="Comment pouvons nous aider?"></textarea>
+            </div>
+            <div>
+              <!-- Submit Button -->
+              <button type="submit" id="button">Soumettre</button>
+            </div>
+          </form>
+        </div>
+      </main>
+    </div>
+  <script src="./assets/js/dark-mode.js"></script>
+  <script src="./assets/js/navbar.js"></script>
+</body>
+
+</html>
