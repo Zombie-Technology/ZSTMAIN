@@ -1,4 +1,5 @@
 # ZST - Site web 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/540f70b6-e0c8-4322-aadf-888ed6dca0b5/deploy-status)](https://app.netlify.com/sites/vigilant-agnesi-ada3b4/deploys)
 
 ### [VOIP best plans](https://pin.plus/FREECALL)
 ### [Pour tous vos besoins d'impressions](https://zombiegraphique.ca)
